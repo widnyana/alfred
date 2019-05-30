@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/bin/certbot renew --nginx -n>> /opt/housekeeping/log/certbot-renew.log
